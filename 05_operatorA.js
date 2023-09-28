@@ -1,18 +1,19 @@
 console.log(`*******************Assignment - 01 ********************88`);
-function squareOfWordLength(str1){
-
-}
-squareOfWordLength("Javascirpt");
-console.log(`1.The Given String Name is = "Javascript"`);
+function squareofWordLength(){
+   console.log(`1.The Given String Name is = "Javascript"`);
 var str1 = "Javascript";
 var totalLength = str1.length;
 console.log(`1.1 Total length of the string is: ${str1.length}`);
 function square(num){
-   var result = num * num; 
-   return result;
+var result = num * num; 
+return result;
 }
 var squareNum = square(10);
 console.log(`1.2   Num is 10 and its square is: ${squareNum}`);
+}
+squareofWordLength(`Javascript`);
+
+
 console.log(`----------------------------------------------------------------------------`);
 function squareOfWordLength(str2){
 
@@ -67,4 +68,3 @@ function divide(num){
  var multiplyNum = multiply();
  console.log(`4.4   The Multiplication of the Given String is: ${multiplyNum}`);
   console.log(`------------------------------------End---------------------------------------------------`);
-
