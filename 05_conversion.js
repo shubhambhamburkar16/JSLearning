@@ -73,3 +73,12 @@ console.log(`2. if a string is a invalid number, then the result will be :${resu
 var result = Number(NaN);
 console.log(`3. if a string is a invalid number, then the result will be :${result} `);
 console.log(`----------------------------------------End---------------------------------------------`);
+var numberInString = "100";
+console.log(typeof numberInString);
+var myNumber = +numberInString;
+console.log(typeof myNumber);
+
+var myName = 100;
+console.log( `before conversion is:`, typeof myNumber);
+var afterConversion = myNumber.toString();
+console.log(typeof afterConversion);
