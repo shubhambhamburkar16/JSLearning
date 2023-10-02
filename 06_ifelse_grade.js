@@ -1,6 +1,7 @@
 console.log(`************************Assignment 2*****************************`);
 var voteEligible =  function(age){
-    if (age==0 || age<0 || age>=130 || age==null) {
+    var result = +age;
+    if (age==0 || age<0 || age>=130 || age==null || isNaN(result)) {
         console.log(`Invalid Data: ${age}`);
     } else {
         if (age<18) {
@@ -19,4 +20,6 @@ voteEligible(200);
 voteEligible(0);
 voteEligible(undefined);
 voteEligible(null);
+voteEligible('Shubham');
+voteEligible("Google");
 console.log(`*******************End********************`);
