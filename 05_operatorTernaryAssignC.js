@@ -21,6 +21,6 @@ function femaleMarriageEligibility(gender, age, girlName){
     }
     var result = maleMarriageEligibility("Female", 16, "Jenifer");
     console.log(`2.1`, result);
-    var result = maleMarriageEligibility("Female", 27, "Malinda Gates")
+    var result = maleMarriageEligibility("Female", 27, "Malinda Gates")o
     console.log(`2.2`, result);
     console.log(`*******************End*******************`);
