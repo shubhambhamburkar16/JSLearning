@@ -38,3 +38,11 @@ let arrayNumbers = [22, 11, 44, 55, 77, 33];
 console.log(`====== Removing element in last=========`);
 arrayNumbers.pop();
 console.log(arrayNumbers);
+console.log(`====== Adding element in first position  =========`);
+arrayNumbers.unshift(99);
+console.log(arrayNumbers);
+
+let arrayN = [22, 11, 44, 55, 77, 33];
+console.log(`====== Removing element in first position =========`);
+arrayN.shift();
+console.log(arrayN);
