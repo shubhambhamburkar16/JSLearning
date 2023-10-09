@@ -13,8 +13,10 @@ let bankLocation = {
     Pin: 444705,
 }
 console.log(`-----------------After the Clonning Step 1 & 2 then Result is-------------------------`);
-Object.assign(bankSbi, bankLocation);
-console.table(bankSbi);
+const bankClone = Object.assign({}, bankSbi, bankLocation)
+console.log(bankClone);
+console.table(bankClone);
+
 console.log(`Creating the Object rateOfInterest`);
 let rateOfInterest = {
     homeLoanInterest: '15 %',
