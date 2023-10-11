@@ -19,12 +19,13 @@ class Person {
 
  const personStew = new Person('Stew', "Job", 'San Francisco', 'Dropout');
  console.log(personStew);
-
+ console.log(`Stew Details: ${personStew.firstName}, ${personStew.lastName}, ${personStew.city}, ${personStew.graduation}`);
  const personBill = new Person('Bill', "Gates", 'San Francisco', 'Dropout');
  console.log(personBill);
-
+ console.log(`Bill Details: ${personBill.firstName}, ${personBill.lastName}, ${personBill.city}, ${personBill.graduation}`);
  const personRatanSir = new Person('Ratan', "Tata", 'Mumbai', 'Architecture');
  console.log(personRatanSir);
+ console.log(`Ratan Sir Details: ${personRatanSir.firstName}, ${personRatanSir.lastName}, ${personRatanSir.city}, ${personRatanSir.graduation}`);
  console.log(`========================`);
  const arrayPerson = [personElon, personStew, personBill, personRatanSir];
  for (const element of arrayPerson) {

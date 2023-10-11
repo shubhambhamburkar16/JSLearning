@@ -117,10 +117,6 @@ console.log(
   for (const clg of arrayOfCollege) {
     console.log(`The Information About College`, clg);
   }
-  
-  console.log(
-    `                                                                                                 `
-  );
   console.log(
     `====================================== Step 3 =====================================`
   );
@@ -132,9 +128,6 @@ console.log(
     }
   }
   traversObject(gode);
-  console.log(`                                                               `);
   traversObject(jagdamba);
-  console.log(`                                                               `);
   traversObject(bit);
-  console.log(`                                                               `);
   traversObject(sipna);
