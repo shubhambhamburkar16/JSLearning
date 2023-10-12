@@ -31,7 +31,7 @@ console.log('Index of M is: ', indexOfM);
  console.log("========== replace =============== ");
 var result =greet.replace('Morning', "Afternoon");
 console.log(result);
-var result = greet.replace(' ', "-");
+var result = greet.replace(' ', "_");
 console.log(result);
 console.log("========== trim() =============== ");
 var str = "   Good Afternoon  ";
