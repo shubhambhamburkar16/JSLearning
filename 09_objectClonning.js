@@ -8,6 +8,7 @@ firstName = 'GK';
 console.log(myName);
 
 myName = 'Ganesh';
+console.log(firstName);
 
 let person = {
     name: 'Elon',
