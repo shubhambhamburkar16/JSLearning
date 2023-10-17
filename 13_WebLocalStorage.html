@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Local Storage</title>
+</head>
+<body>
+   <h2>Web Local  storage </h2> 
+   <script>
+        window.localStorage.setItem('name', 'Shubham Dhanraj Bhamburkar');
+        window.localStorage.setItem('city', 'Anjangaon Surji');
+        window.localStorage.setItem('pinCode', '444705');
+        window.localStorage.setItem('district', 'Amravati')
+
+        const district = window.sessionStorage.removeItem("district");
+        console.log('district',district);
+        const len = window.localStorage.length;
+        console.log(`Total items in local storage is: ${len}`);
+   </script>
+</body>
+</html>
