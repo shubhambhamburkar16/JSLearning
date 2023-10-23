@@ -37,6 +37,7 @@ var str2 = "Locus";
 
 var result = str1 == str2; // typeof result;
 console.log(`Result of comparison == is: ${result}`);
+console.log(typeof result);
 
 var result = str1 === str2;
 console.log(`Result of comparison === is: ${result}`);
