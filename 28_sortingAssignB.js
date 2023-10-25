@@ -32,15 +32,15 @@ class Employee {
     console.log(`-------------------------------------------------------------------------------------------------------------------------`);
     console.log(`-------------step 2 - Sorting the Array in Ascending Order--------------`);
      const newArray1 = arrayEmployees.sort((emp1, emp2) => {
-        return emp1.emp_id > emp2.emp_id? 1 : -1;
+        return emp1.emp_dept > emp2.emp_dept? 1 : -1;
     });
      arrayEmployees.forEach((currentValue, index, value) => {
     console.log(` Employee ID : ${currentValue.emp_id}  Employee Department : ${currentValue.emp_dept}  Employee Company : ${currentValue.emp_company}`);
     });
     console.log(`-------------------------------------------------------------------------------------------------------------------------`);
-    console.log(`-------------step 2 - Sorting the Array in Ascending Order--------------`);
+    console.log(`-------------step 3 - Sorting the Array in Ascending Order--------------`);
      const newArray2 = arrayEmployees.sort((emp1, emp2) => {
-        return emp1.emp_id > emp2.emp_id? -1 : 1;
+        return emp1.emp_salary > emp2.emp_salary? -1 : 1;
     });
      arrayEmployees.forEach((currentValue, index, value) => {
     console.log(` Employee Name : ${currentValue.emp_name}  Employee Salary : ${currentValue.emp_salary}  Employee Company : ${currentValue.emp_company}`);
