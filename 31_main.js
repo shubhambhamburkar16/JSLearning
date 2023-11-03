@@ -9,4 +9,4 @@ const mainHeadingElements = document.querySelector('#mainHeading');
 mainHeadingElements.addEventListener('mouseover', ()=>{
     mainHeadingElements.style.color = 'black';
     mainHeadingElements.style.fontSize = '30px';
-} );
+} ); 
